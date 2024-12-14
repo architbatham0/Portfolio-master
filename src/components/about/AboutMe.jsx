@@ -17,6 +17,7 @@ const Letter = ({ letter, duration, delay, className }) => (
   </motion.mark>
 );
 
+
 const AboutMe = ({ contact }) => {
   return (
     <div className="about">
@@ -131,7 +132,7 @@ const AboutMe = ({ contact }) => {
           data-scroll-speed="0.1"
           onClick={() => contact.current.scrollIntoView({ behavior: "smooth" })}
         >
-          &lt;build me a website/&gt;
+          &lt;Contact/&gt;
         </motion.button>
       </div>
       <div data-scroll data-scroll-speed="0.4" className="right">
@@ -140,20 +141,20 @@ const AboutMe = ({ contact }) => {
             data-scroll
             data-scroll-speed="0.1"
             className="laptop"
-            src="../a.webp"
+            src="../archit-batham.png"
             alt="a laptop"
             fetchpriority="high"
           />
         </div>
         <div className="desc">
-          Hey there! This is Mithesh! As a <span>full-stack developer</span>{" "}
-          with a passion for <span> UI design,</span> I'm thrilled to have you
-          here. I have experience building <span>responsive websites, </span>
+          Hey there! This is Archit! As a <span>UI UX Designer</span>{" "}
+          with a passion for <span> Figma,</span> I'm thrilled to have you
+          here. I have experience Design <span>Websites,Mobile App </span>
           creating <span>intuitive user interfaces,</span> and{" "}
-          <span>optimizing website performance.</span>
+          <span>optimizing Designs.</span>
           <br />
           <br />
-          Thank you for stopping by, and I hope you enjoy exploring my
+          I hope you enjoy exploring my
           portfolio!
         </div>
       </div>

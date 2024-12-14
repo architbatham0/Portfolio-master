@@ -69,7 +69,7 @@ useEffect(() => {
       <div className="container">
         <a>
           <h1 onClick={handleReloadClick} className="logo">
-            m<mark className="mark2">.</mark>
+            aB<mark className="mark2">.</mark>
           </h1>
         </a>
         <div
@@ -84,7 +84,7 @@ useEffect(() => {
               <a
                 onClick={handleShowNavbar}
                 className="reverse"
-                href="https://drive.google.com/file/d/1P17hK1usPetP6ADo29vHA8TMgBCENQqw/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1LIDehQdfc1IsT-zySw6ZJsomG2z6_XzV/view?usp=sharing"
                 target="_blank"
                 style={{ display: "flex", alignItems: "center" }}
               >

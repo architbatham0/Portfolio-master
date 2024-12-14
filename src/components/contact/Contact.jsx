@@ -53,18 +53,17 @@ const Contact = forwardRef((props, ref) => {
           <div className="circle"></div>
           <div data-scroll data-scroll-speed="0.02" className="thankyou">
             Thank you for taking the time to check out my portfolio. Feel free
-            to contact me if you're interested in hiring me or if you would like
-            me to build a product for you.
+            to contact me if you're interested in hiring me.
           </div>
           <div className="links">
-            <a href="https://www.linkedin.com/in/mitheshb/" target="_blank">
+            <a href="https://www.linkedin.com/in/archit-batham-dev0/" target="_blank">
               <LinkedInIcon style={{ fontSize: 24, padding: 8 }} />
             </a>
-            <a href="https://github.com/Mithesh-B" target="_blank">
+            <a href="https://github.com/architbatham" target="_blank">
               <GitHubIcon style={{ fontSize: 24, padding: 8 }} />
             </a>
             <a
-              href="https://codepen.io/Mithesh-B/pens/public"
+              href="https://codepen.io/archit4453"
               style={{
                 display: "flex",
                 justifyContent: "center",
@@ -133,7 +132,7 @@ const Contact = forwardRef((props, ref) => {
                 : "Submit"}
             </button>
             <div className="copyright">
-              © 2023, Designed & Built with React by Mithesh
+              © 2024, Designed & Built with React by Archit Batham
             </div>
           </form>
         </div>

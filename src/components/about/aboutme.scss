@@ -112,9 +112,10 @@ html {
       justify-content: center;
 
       .laptop {
-        width: 80%;
+        width: 60%;
         height: auto;
         position: relative;
+        filter: drop-shadow(12px 12px 12px rgba(0,0,0,0.7));
       
       }
     }
