@@ -46,7 +46,7 @@ const TechSkills = forwardRef((props, ref) => {
                 backgroundColor: "#1a1a1a00",
               }}
             >
-              <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+              <a href="https://en.wikipedia.org/wiki/Canva">
                 learn more
               </a>
               <OpenInNewIcon style={{ color: "#e2e2e2c2", fontSize: "1rem" }} />
@@ -67,7 +67,7 @@ const TechSkills = forwardRef((props, ref) => {
                 backgroundColor: "#1a1a1a00",
               }}
             >
-              <a href="https://nodejs.org/en">learn more</a>
+              <a href="https://en.wikipedia.org/wiki/Adobe_Photoshop">learn more</a>
               <OpenInNewIcon style={{ color: "#e2e2e2c2", fontSize: "1rem" }} />
             </div>
           </div>
@@ -87,7 +87,7 @@ const TechSkills = forwardRef((props, ref) => {
                 backgroundColor: "#1a1a1a00",
               }}
             >
-              <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+              <a href="https://en.wikipedia.org/wiki/Illustrator">
                 learn more
               </a>
               <OpenInNewIcon style={{ color: "#e2e2e2c2", fontSize: "1rem" }} />
@@ -108,7 +108,7 @@ const TechSkills = forwardRef((props, ref) => {
                 backgroundColor: "#1a1a1a00",
               }}
             >
-              <a href="https://react.dev/">learn more</a>
+              <a href="https://en.wikipedia.org/wiki/HTML">learn more</a>
               <OpenInNewIcon style={{ color: "#e2e2e2c2", fontSize: "1rem" }} />
             </div>
           </div>
@@ -127,7 +127,7 @@ const TechSkills = forwardRef((props, ref) => {
                 backgroundColor: "#1a1a1a00",
               }}
             >
-              <a href="https://www.mongodb.com/">learn more</a>
+              <a href="https://en.wikipedia.org/wiki/CSS">learn more</a>
               <OpenInNewIcon style={{ color: "#e2e2e2c2", fontSize: "1rem" }} />
             </div>
           </div>
@@ -147,7 +147,7 @@ const TechSkills = forwardRef((props, ref) => {
                 backgroundColor: "#1a1a1a00",
               }}
             >
-              <a href="https://redux-toolkit.js.org/">learn more</a>
+              <a href="https://en.wikipedia.org/wiki/JavaScript">learn more</a>
               <OpenInNewIcon style={{ color: "#e2e2e2c2", fontSize: "1rem" }} />
             </div>
           </div>
@@ -165,7 +165,7 @@ const TechSkills = forwardRef((props, ref) => {
                 backgroundColor: "#1a1a1a00",
               }}
             >
-              <a href="https://expressjs.com/">learn more</a>
+              <a href="https://en.wikipedia.org/wiki/Diagrams.net">learn more</a>
               <OpenInNewIcon style={{ color: "#e2e2e2c2", fontSize: "1rem" }} />
             </div>
           </div>

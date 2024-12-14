@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import "./contact.scss";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import GitHubIcon from "@mui/icons-material/GitHub";
+import SportsSoccerIcon from '@mui/icons-material/SportsSoccer';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import axios from "axios";
 import { forwardRef } from "react";
 
@@ -58,12 +60,13 @@ const Contact = forwardRef((props, ref) => {
           <div className="links">
             <a href="https://www.linkedin.com/in/archit-batham-dev0/" target="_blank">
               <LinkedInIcon style={{ fontSize: 24, padding: 8 }} />
+              
             </a>
-            <a href="https://github.com/architbatham" target="_blank">
-              <GitHubIcon style={{ fontSize: 24, padding: 8 }} />
+            <a href="https://dribbble.com/architbatham" target="_blank">
+              <SportsSoccerIcon style={{ fontSize: 24, padding: 8 }} />
             </a>
             <a
-              href="https://codepen.io/archit4453"
+              href="https://www.behance.net/architbatham"
               style={{
                 display: "flex",
                 justifyContent: "center",
@@ -78,7 +81,7 @@ const Contact = forwardRef((props, ref) => {
                   padding: 8,
                 }}
                 loading="lazy"
-                src="../codepen.svg"
+                src="../behance.svg"
                 alt="codepen"
               />
             </a>

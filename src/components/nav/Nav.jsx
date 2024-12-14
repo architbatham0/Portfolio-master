@@ -84,7 +84,7 @@ useEffect(() => {
               <a
                 onClick={handleShowNavbar}
                 className="reverse"
-                href="https://drive.google.com/file/d/1LIDehQdfc1IsT-zySw6ZJsomG2z6_XzV/view?usp=sharing"
+                href="https://drive.google.com/file/d/1Sqv28vhUBwW7__9PzO7SWNET2OaqT5-4/view"
                 target="_blank"
                 style={{ display: "flex", alignItems: "center" }}
               >
