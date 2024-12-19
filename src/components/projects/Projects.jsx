@@ -371,6 +371,60 @@ const Projects = forwardRef((props, ref) => {
           </div>
         </div>
 
+                                                                                   {/* Recruit CRM */}
+
+                                                                                   <div className="projectstop">
+          <div className="project" ref={(el) => (projectRefs.current[19] = el)}>
+            <div style={{ display: "flex", gap: "2rem" }}>
+              <div className="techstack">
+                <div className="zero">01 Figma</div>
+                <div className="zero">02 Adobe Illustrator</div>
+                
+
+              </div>
+              <StayPrimaryPortraitIcon
+                style={{ color: "#e2e2e2c2", fontSize: "1.5rem" }}
+              />
+            </div>
+            <h1 data-scroll data-scroll-speed="0.02" className="title_p">
+            Recruit CRM Redesigne
+            </h1>
+            <div className="description">            
+            My newly redesigned Recruit CRM is built with user-centric design at its core, ensuring that recruiters can focus on what truly matters
+            </div>
+            <br />
+            <div className="links">
+            <a
+                className="source"
+                href="https://www.figma.com/design/vKIOh1pcXD1Aumh3QXG0pl/Recruitcrm?node-id=11-13&t=X4tRKXzbAzfnM05x-1"
+                target="_blank"
+              >
+                <AutoFixHighIcon />
+                Figma
+              </a>
+              <a
+                className="demo"
+                href="https://www.figma.com/proto/vKIOh1pcXD1Aumh3QXG0pl/Recruitcrm?page-id=8%3A89&node-id=11-13&viewport=611%2C250%2C0.22&t=2YXGmXiYldXeT7gE-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=11%3A13"
+                target="_blank"
+              >
+                <ArticleSharpIcon />
+                Prototype
+              </a>
+              
+                
+      
+            </div>
+          </div>
+          <div className="image" ref={(el) => (imageRefs.current[19] = el)}>
+            <img
+              loading="lazy"
+              src="../Mockup Recruit Crm.png"
+              alt="project img"
+              fetchpriority="low"
+            />
+          </div>
+        </div>
+
         
                                                                                       {/* 4th Project */}
 
@@ -417,7 +471,7 @@ const Projects = forwardRef((props, ref) => {
           <div className="image" ref={(el) => (imageRefs.current[4] = el)}>
             <img
               loading="lazy"
-              src="../Digital Agency.png"
+              src="../Digital123.png"
               alt="project img"
               fetchpriority="low"
             />
