@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import React from "react";
 import "./nav.scss";
-
+import SportsSoccerIcon from '@mui/icons-material/SportsSoccer';
 import ArticleRoundedIcon from "@mui/icons-material/ArticleRounded";
 import AnalyticsRoundedIcon from "@mui/icons-material/AnalyticsRounded";
 import BathroomRoundedIcon from "@mui/icons-material/BathroomRounded";
@@ -92,9 +92,27 @@ useEffect(() => {
                   fontSize="medium"
                   style={{ color: "#a2ffc6" }}
                 />
+                
                 <span style={{ marginLeft: "10px" }}>resume</span>
               </a>
             </li>
+            <li>
+              <a
+                onClick={handleShowNavbar}
+                className="reverse"
+                href="https://dribbble.com/architbatham"
+                target="_blank"
+                style={{ display: "flex", alignItems: "center" }}
+              >
+                <SportsSoccerIcon
+                  fontSize="medium"
+                  style={{ color: "#FFC0CB" }}
+                />
+                
+                <span style={{ marginLeft: "10px" }}>dribbble</span>
+              </a>
+            </li>
+            
             <li>
               <nav
                 onClick={handleSkillsClick}
@@ -103,7 +121,7 @@ useEffect(() => {
                 {" "}
                 <AnalyticsRoundedIcon
                   fontSize="medium"
-                  style={{ color: "#e6accb" }}
+                  style={{ color: "#CCD082" }}
                 />{" "}
                 <a style={{ marginLeft: "10px" }}>skills</a>
               </nav>

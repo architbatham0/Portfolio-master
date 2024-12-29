@@ -133,8 +133,17 @@ const AboutMe = ({ contact }) => {
           onClick={() => contact.current.scrollIntoView({ behavior: "smooth" })}
         >
           &lt;Contact/&gt;
+          
         </motion.button>
+        
+
+        
       </div>
+      
+      
+      
+
+
       <div data-scroll data-scroll-speed="0.4" className="right">
         <div className="container">
           <img
