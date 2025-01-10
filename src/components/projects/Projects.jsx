@@ -77,7 +77,7 @@ const Projects = forwardRef((props, ref) => {
             <div className="links">
               <a
                 className="source"
-                href="https://uxfol.io/p/b4a5611c/02c561f8"
+                href="https://root-pigment-963.notion.site/Case-study-s-16ca80f2b48280518884ec0b7a4bcd0c"
                 target="_blank"
               >
                 <ArticleSharpIcon />
