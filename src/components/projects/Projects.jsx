@@ -77,7 +77,7 @@ const Projects = forwardRef((props, ref) => {
             <div className="links">
               <a
                 className="source"
-                href="https://root-pigment-963.notion.site/Case-study-s-16ca80f2b48280518884ec0b7a4bcd0c"
+                href="https://www.behance.net/gallery/216866681/Bit-Me-Food-delivery-App"
                 target="_blank"
               >
                 <ArticleSharpIcon />
@@ -96,7 +96,7 @@ const Projects = forwardRef((props, ref) => {
           <div className="image" ref={(el) => (imageRefs.current[0] = el)}>
             <img
               loading="lazy"
-              src="../bitme.png"
+              src="../1.png"
               alt="project img"
               fetchpriority="low"
             />
