@@ -135,7 +135,7 @@ const Projects = forwardRef((props, ref) => {
               </a>
               <a
                 className="demo"
-                href="https://www.figma.com/proto/gdSqDjQfxGRxWZxHZY9s92/Adams?page-id=3%3A108&node-id=6-5688&viewport=7987%2C7288%2C0.11&t=1GAI1mX0wxp5mZKq-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=6%3A5688"
+                href="https://www.figma.com/proto/gdSqDjQfxGRxWZxHZY9s92/Adams?page-id=173%3A253&node-id=173-254&viewport=815%2C369%2C0.09&t=t5vj7sgFHn5eYwTJ-1&scaling=scale-down-width&content-scaling=fixed"
                 target="_blank"
               >
                 <PlayCircleFilledWhiteSharpIcon />
