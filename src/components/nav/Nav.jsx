@@ -97,22 +97,7 @@ useEffect(() => {
                 <span style={{ marginLeft: "10px" }}>resume</span>
               </a>
             </li>
-            <li>
-              <a
-                onClick={handleShowNavbar}
-                className="reverse"
-                href="https://root-pigment-963.notion.site/Case-study-s-16ca80f2b48280518884ec0b7a4bcd0c"
-                target="_blank"
-                style={{ display: "flex", alignItems: "center" }}
-              >
-                <DescriptionIcon
-                  fontSize="medium"
-                  style={{ color: "#F5FF69" }}
-                />
-                
-                <span style={{ marginLeft: "10px" }}>Case Studies</span>
-              </a>
-            </li>
+            
             <li>
               <a
                 onClick={handleShowNavbar}
