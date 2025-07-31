@@ -140,10 +140,6 @@ const AboutMe = ({ contact }) => {
         
       </div>
       
-      
-      
-
-
       <div data-scroll data-scroll-speed="0.4" className="right">
         <div className="container">
           <img

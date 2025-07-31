@@ -38,7 +38,7 @@ const TechSkills = forwardRef((props, ref) => {
         </div>
         <div className="grid grid1">
           <div className="skill-title">
-            <div className="js">Canva</div>
+            <div className="js">Web Flow</div>
             <div
               style={{
                 display: "flex",
@@ -46,20 +46,20 @@ const TechSkills = forwardRef((props, ref) => {
                 backgroundColor: "#1a1a1a00",
               }}
             >
-              <a href="https://en.wikipedia.org/wiki/Canva">
+              <a href="https://webflow.com/?r=0">
                 learn more
               </a>
               <OpenInNewIcon style={{ color: "#e2e2e2c2", fontSize: "1rem" }} />
             </div>
           </div>
           <div className="body">
-            Canva is a free-to-use online graphic design tool.Use to create Social media post,
-            Presentation, Posters, Mockups, videos etc.
+            Webflow’s all-in-one platform, you can create, manage, and optimize web experiences that 
+            convert — without sacrificing brand consistency.
           </div>
         </div>
         <div className="grid grid1">
           <div className="skill-title">
-            <div className="node">Photoshop</div>
+            <div className="node">UX research</div>
             <div
               style={{
                 display: "flex",
@@ -67,13 +67,13 @@ const TechSkills = forwardRef((props, ref) => {
                 backgroundColor: "#1a1a1a00",
               }}
             >
-              <a href="https://en.wikipedia.org/wiki/Adobe_Photoshop">learn more</a>
+              <a href="https://www.interaction-design.org/literature/topics/ux-research">learn more</a>
               <OpenInNewIcon style={{ color: "#e2e2e2c2", fontSize: "1rem" }} />
             </div>
           </div>
           <div className="body">
-           Photoshop image editing and aptimization tools can help to improve user expericne by
-           croping, resizing, retouching ,enhancing image and AI tools for better Design
+           Gathering insights about users' behaviors, needs, and pain points through observation techniques 
+           and feedback methodologies
           </div>
         </div>
 
@@ -100,7 +100,7 @@ const TechSkills = forwardRef((props, ref) => {
         </div>
         <div data-scroll data-scroll-speed="0.1" className="grid grid1">
           <div className="skill-title">
-            <div className="react">HTML</div>
+            <div className="react">Rive</div>
             <div
               style={{
                 display: "flex",
@@ -108,13 +108,12 @@ const TechSkills = forwardRef((props, ref) => {
                 backgroundColor: "#1a1a1a00",
               }}
             >
-              <a href="https://en.wikipedia.org/wiki/HTML">learn more</a>
+              <a href="https://rive.app/">learn more</a>
               <OpenInNewIcon style={{ color: "#e2e2e2c2", fontSize: "1rem" }} />
             </div>
           </div>
           <div className="body">
-          HTML is a standard markup language used to create and structure
-          content on the web.
+          Rive is a tool for creating and running interactive animations for apps, games, and websites
           </div>
         </div>
         <div className="grid grid1">

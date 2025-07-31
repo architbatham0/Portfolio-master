@@ -66,18 +66,18 @@ const Projects = forwardRef((props, ref) => {
               
             </div>
             <h1 data-scroll data-scroll-speed="0.02" className="title_p rev">
-              BITE ME APP
+              Dream Interpretation 
             </h1>
 
             <div className="description">
-              Bite Me is a food delivery Service focusd on bringing local flavors to users through a simple
-              user frindly app
+              This app helps users understand the true meaning behind their dreams by connecting them with expert dream interpreters. 
+              Users can chat with experts or schedule a one-on-one call for deeper insights 
             </div>
             <br />
             <div className="links">
               <a
                 className="source"
-                href="https://www.behance.net/gallery/216866681/Bit-Me-Food-delivery-App"
+                href="/"
                 target="_blank"
               >
                 <ArticleSharpIcon />
@@ -85,7 +85,7 @@ const Projects = forwardRef((props, ref) => {
               </a>
               <a
                 className="demo"
-                href="https://www.figma.com/proto/LPVoV9wmUK1wFDS2E926oX/Bite-Me-Food-Delivery?page-id=0%3A1&node-id=2-66&viewport=514%2C275%2C0.06&t=57t7XhUxcszBqP3K-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2%3A66&show-proto-sidebar=1"
+                href="/"
                 target="_blank"
               >
                 <PlayCircleFilledWhiteSharpIcon />
@@ -96,7 +96,7 @@ const Projects = forwardRef((props, ref) => {
           <div className="image" ref={(el) => (imageRefs.current[0] = el)}>
             <img
               loading="lazy"
-              src="../1.png"
+              src="../Dream.png"
               alt="project img"
               fetchpriority="low"
             />
