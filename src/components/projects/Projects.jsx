@@ -8,6 +8,7 @@ import ArticleSharpIcon from '@mui/icons-material/ArticleSharp';
 import PlayCircleFilledWhiteSharpIcon from '@mui/icons-material/PlayCircleFilledWhiteSharp';
 import StayPrimaryPortraitIcon from '@mui/icons-material/StayPrimaryPortrait';
 import DevicesRoundedIcon from "@mui/icons-material/DevicesRounded";
+import DownloadIcon from '@mui/icons-material/Download';
 import { forwardRef } from "react";
 
 const Projects = forwardRef((props, ref) => {
@@ -88,7 +89,7 @@ const Projects = forwardRef((props, ref) => {
                 href="/"
                 target="_blank"
               >
-                <PlayCircleFilledWhiteSharpIcon />
+                <DownloadIcon />
                 Prototype
               </a>
             </div>
