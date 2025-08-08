@@ -19,7 +19,7 @@ const Projects = forwardRef((props, ref) => {
     const toggleProjects = () => {
       setShowMoreProjects(!showMoreProjects);
     };
-
+//Hello world
   useEffect(() => {
     const handleScroll = () => {
       projectRefs.current.forEach((project, index) => {
@@ -90,7 +90,7 @@ const Projects = forwardRef((props, ref) => {
                 target="_blank"
               >
                 <DownloadIcon />
-                Prototype
+                Download 
               </a>
             </div>
           </div>
