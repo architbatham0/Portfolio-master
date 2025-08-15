@@ -397,7 +397,7 @@ const Projects = forwardRef((props, ref) => {
             <div className="links">
             <a
                 className="source"
-                href="https://www.figma.com/design/vKIOh1pcXD1Aumh3QXG0pl/Recruitcrm?node-id=11-13&t=X4tRKXzbAzfnM05x-1"
+                href="/"
                 target="_blank"
               >
                 <AutoFixHighIcon />
@@ -405,7 +405,7 @@ const Projects = forwardRef((props, ref) => {
               </a>
               <a
                 className="demo"
-                href="https://www.figma.com/proto/vKIOh1pcXD1Aumh3QXG0pl/Recruitcrm?page-id=8%3A89&node-id=11-13&viewport=611%2C250%2C0.22&t=2YXGmXiYldXeT7gE-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=11%3A13"
+                href="/"
                 target="_blank"
               >
                 <ArticleSharpIcon />
@@ -460,7 +460,7 @@ const Projects = forwardRef((props, ref) => {
               </a>
               <a
                 className="demo"
-                href="https://https://www.figma.com/proto/Dzt7Yz94bWTcrM48nzupjB/Digital-Agency-Landing-page?page-id=0%3A1&node-id=1-2&viewport=458%2C254%2C0.12&t=O58qxxMCfJL6xyej-1&scaling=min-zoom&content-scaling=fixed.github.io/Netflix_clone/Logo_Netflix/netflix2.html"
+                href="/"
                 target="_blank"
               >
                 <PlayCircleFilledWhiteSharpIcon />
