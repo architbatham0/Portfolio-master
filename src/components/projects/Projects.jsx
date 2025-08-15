@@ -128,7 +128,7 @@ const Projects = forwardRef((props, ref) => {
             <div className="links">
               <a
                 className="source"
-                href="https://www.figma.com/design/gdSqDjQfxGRxWZxHZY9s92/Adams?node-id=6-5688&t=pcwi165xgbSDT4iV-1"
+                href="/"
                 target="_blank"
               >
                 <AutoFixHighIcon />
@@ -136,7 +136,7 @@ const Projects = forwardRef((props, ref) => {
               </a>
               <a
                 className="demo"
-                href="https://www.figma.com/proto/gdSqDjQfxGRxWZxHZY9s92/Adams?page-id=173%3A253&node-id=173-254&viewport=815%2C369%2C0.09&t=t5vj7sgFHn5eYwTJ-1&scaling=scale-down-width&content-scaling=fixed"
+                href="/"
                 target="_blank"
               >
                 <PlayCircleFilledWhiteSharpIcon />
@@ -181,7 +181,7 @@ const Projects = forwardRef((props, ref) => {
             <div className="links">
               <a
                 className="source"
-                href="https://www.figma.com/design/6BhbHt8YUgHa6S6WFbgHJx/Web-Design-THREDS?node-id=0-1&t=Sqzt2XIQEY8DSAaN-1"
+                href="/"
                 target="_blank"
               >
                 <AutoFixHighIcon />
@@ -189,7 +189,7 @@ const Projects = forwardRef((props, ref) => {
               </a>
               <a
                 className="demo"
-                href="https://www.figma.com/proto/6BhbHt8YUgHa6S6WFbgHJx/Web-Design-THREDS?page-id=0%3A1&node-id=1-18&p=f&viewport=536%2C387%2C0.77&t=nKaT4KuQFwN4iXso-1&scaling=min-zoom&content-scaling=fixed"
+                href="/"
                 target="_blank"
               >
                 <PlayCircleFilledWhiteSharpIcon />
@@ -238,7 +238,7 @@ const Projects = forwardRef((props, ref) => {
             <div className="links">
               <a
                 className="source"
-                href="https://www.figma.com/design/l3ATk2jpvQvy6MLp9sdD73/E-Commerce?node-id=10-42&t=mSOVhBorUxscir1K-1"
+                href="/"
                 target="_blank"
               >
                 <AutoFixHighIcon />
@@ -246,7 +246,7 @@ const Projects = forwardRef((props, ref) => {
               </a>
               <a
                 className="demo"
-                href="https://www.figma.com/proto/l3ATk2jpvQvy6MLp9sdD73/E-Commerce?page-id=0%3A1&node-id=10-42&viewport=82%2C272%2C0.25&t=AQDdmN3V3z2RUAc9-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=10%3A42&show-proto-sidebar=1"
+                href="/"
                 target="_blank"
               >
                 <PlayCircleFilledWhiteSharpIcon />
@@ -292,7 +292,7 @@ const Projects = forwardRef((props, ref) => {
             <div className="links">
               <a
                 className="source"
-                href="https://www.figma.com/design/tlZxdx9KUfOoO7CTVqSB54/Episode-Tracker?node-id=15-416&t=JRdXByxCgRIIoiap-1"
+                href="/"
                 target="_blank"
               >
                 <AutoFixHighIcon />
@@ -300,7 +300,7 @@ const Projects = forwardRef((props, ref) => {
               </a>
               <a
                 className="demo"
-                href="https://www.figma.com/proto/tlZxdx9KUfOoO7CTVqSB54/Episode-Tracker?page-id=7%3A283&node-id=15-416&viewport=517%2C273%2C0.13&t=GmXfSavCjXfuwjqa-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=15%3A416&show-proto-sidebar=1"
+                href="/"
                 target="_blank"
               >
                 <PlayCircleFilledWhiteSharpIcon />
@@ -343,7 +343,7 @@ const Projects = forwardRef((props, ref) => {
             <div className="links">
             <a
                 className="source"
-                href="https://www.figma.com/design/7bzHGSWs6rlRg9zvuFg379/IRCTC-Redesigned?node-id=2-4&t=yVxKTTvAIp03NKMu-1"
+                href="/"
                 target="_blank"
               >
                 <AutoFixHighIcon />
@@ -452,7 +452,7 @@ const Projects = forwardRef((props, ref) => {
             <div className="links">
             <a
                 className="source"
-                href="https://github.https://www.figma.com/design/Dzt7Yz94bWTcrM48nzupjB/Digital-Agency-Landing-page?node-id=1-2&t=JSLUCddSF7H1YO4N-1/architbatham/Netflix_clone"
+                href="/"
                 target="_blank"
               >
                 <AutoFixHighIcon />
