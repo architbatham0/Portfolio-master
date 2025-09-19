@@ -86,7 +86,7 @@ const Projects = forwardRef((props, ref) => {
               </a>
               <a
                 className="demo"
-                href="/"
+                href="https://play.google.com/store/apps/details?id=com.ahlami.ahlamidreams&pli=1"
                 target="_blank"
               >
                 <DownloadIcon />
