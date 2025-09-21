@@ -156,7 +156,7 @@ const TechSkills = forwardRef((props, ref) => {
         </div>
         <div data-scroll data-scroll-speed="0.1" className="grid grid1">
           <div className="skill-title">
-            <div className="strapi">Draw.io</div>
+            <div className="strapi">Notion</div>
             <div
               style={{
                 display: "flex",
@@ -164,12 +164,12 @@ const TechSkills = forwardRef((props, ref) => {
                 backgroundColor: "#1a1a1a00",
               }}
             >
-              <a href="https://en.wikipedia.org/wiki/Diagrams.net">learn more</a>
+              <a href="https://www.notion.com/">learn more</a>
               <OpenInNewIcon style={{ color: "#e2e2e2c2", fontSize: "1rem" }} />
             </div>
           </div>
           <div className="body">
-            Draw.io is free onlin diagram software for making flowcharts,process diagram,UML,ER diagarm.{" "}
+            Notion is a versatile all-in-one workspace helping designers streamline workflows and collaborate in real time.{" "}
           </div>
         </div>
       </div>

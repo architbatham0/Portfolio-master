@@ -147,7 +147,7 @@ const Projects = forwardRef((props, ref) => {
           <div className="image" ref={(el) => (imageRefs.current[10] = el)}>
             <img
               loading="lazy"
-              src="../adams final.png"
+              src="../Adams.png"
               alt="project img"
               fetchpriority="low"
             />
@@ -171,11 +171,10 @@ const Projects = forwardRef((props, ref) => {
               />
             </div>
             <h1 data-scroll data-scroll-speed="0.02" className="title_p">
-              Threds Web
+              Helath App Landing page
             </h1>
             <div className="description">
-            Threds website is a modern and stylish e-commerce platform that offers a seamless shopping experience for faition enthusiasts.
-            The UI is design with a clean layout intuitiv navigation and user friendly.
+            Designed a clean landing page for a health app, showcasing features like fitness tracking, nutrition monitoring, and progress insights. The layout focuses on simplicity, motivation, and user-friendly design to engage users and boost conversions.
             </div>
             <br />
             <div className="links">
@@ -200,7 +199,7 @@ const Projects = forwardRef((props, ref) => {
           <div className="image" ref={(el) => (imageRefs.current[1] = el)}>
             <img
               loading="lazy"
-              src="../threds.png"
+              src="../health.png"
               alt="project img"
               fetchpriority="low"
             />
