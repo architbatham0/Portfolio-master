@@ -78,7 +78,7 @@ const Projects = forwardRef((props, ref) => {
             <div className="links">
               <a
                 className="source"
-                href="/"
+                href="https://dribbble.com/shots/26555654-Dream-Interpretation-App-UI-UX-Case-Study"
                 target="_blank"
               >
                 <ArticleSharpIcon />
