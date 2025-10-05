@@ -154,7 +154,7 @@ const AboutMe = ({ contact }) => {
         <div className="desc">
           Hey there! This is Archit! As a <span>UI UX Designer</span>{" "}
           with a passion for <span> Figma,</span> I'm thrilled to have you
-          here. I have experience Design <span>Websites & Mobile App </span>
+          here. I have experience Design <span>Websites, Dahboard's & Mobile App </span>
          creating interfaces that are <span> Simple, Intuitive</span> and{" "}
           <span>Engaging.</span>
           <br />
