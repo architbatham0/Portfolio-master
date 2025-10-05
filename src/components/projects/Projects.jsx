@@ -2,6 +2,7 @@ import React from "react";
 import { useEffect, useRef, useState } from "react";
 import "./projects.scss";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import SportsBasketballIcon from '@mui/icons-material/SportsBasketball';
 import AutoFixHighIcon from '@mui/icons-material/AutoFixHigh';
 import PublicIcon from "@mui/icons-material/Public";
 import ArticleSharpIcon from '@mui/icons-material/ArticleSharp';
@@ -10,6 +11,7 @@ import StayPrimaryPortraitIcon from '@mui/icons-material/StayPrimaryPortrait';
 import DevicesRoundedIcon from "@mui/icons-material/DevicesRounded";
 import DownloadIcon from '@mui/icons-material/Download';
 import { forwardRef } from "react";
+import CodeIcon from '@mui/icons-material/Code';
 
 const Projects = forwardRef((props, ref) => {
   const projectRefs = useRef([]);
@@ -103,6 +105,7 @@ const Projects = forwardRef((props, ref) => {
             />
           </div>
         </div>
+        
                                                                                      {/* 1.1project */}
 
          <div className="projectstop p1">
@@ -118,11 +121,11 @@ const Projects = forwardRef((props, ref) => {
               
             </div>
             <h1 data-scroll data-scroll-speed="0.02" className="title_p rev">
-              Adams Ale 
+             HooHa
             </h1>
 
             <div className="description">
-            Admas Ale Web Design is a contemporary food restaurant and bar located in the heart of Indore, offering a unique dining experience with a blend of exquisite local and international cuisines
+            Astrology Zodiac Dating App – A dating platform that matches users based on zodiac signs and horoscope compatibility, with personalized insights and easy chatting features.
           </div>
             <br />
             <div className="links">
@@ -131,23 +134,23 @@ const Projects = forwardRef((props, ref) => {
                 href="/"
                 target="_blank"
               >
-                <AutoFixHighIcon />
-                Figma
+                <SportsBasketballIcon />
+                Dribble
               </a>
               <a
                 className="demo"
                 href="/"
                 target="_blank"
               >
-                <PlayCircleFilledWhiteSharpIcon />
-                Prototype
+                <CodeIcon />
+                Under Dev
               </a>
             </div>
           </div>
           <div className="image" ref={(el) => (imageRefs.current[10] = el)}>
             <img
               loading="lazy"
-              src="../Adams.png"
+              src="../HooHa.png"
               alt="project img"
               fetchpriority="low"
             />
@@ -227,11 +230,10 @@ const Projects = forwardRef((props, ref) => {
               />
             </div>
             <h1 data-scroll data-scroll-speed="0.02" className="title_p">
-              Threds App
+              Adams Ale
             </h1>
             <div className="description">
-            Threds App is a modern and stylish e-commerce platform that offers a seamless shopping experience for faition enthusiasts.
-            The UI is design with a clean layout intuitiv navigation and user friendly.  
+            Admas Ale Web Design is a contemporary food restaurant and bar located in the heart of Indore, offering a unique dining experience with a blend of exquisite local and international cuisines
             </div>
             <br />
             <div className="links">
@@ -256,7 +258,7 @@ const Projects = forwardRef((props, ref) => {
           <div className="image" ref={(el) => (imageRefs.current[2] = el)}>
             <img
               loading="lazy"
-              src="../threds app.jpg"
+              src="../Adams.png"
               alt="project img"
               fetchpriority="low"
             />
