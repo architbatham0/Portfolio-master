@@ -12,6 +12,7 @@ import DevicesRoundedIcon from "@mui/icons-material/DevicesRounded";
 import DownloadIcon from '@mui/icons-material/Download';
 import { forwardRef } from "react";
 import CodeIcon from '@mui/icons-material/Code';
+import AppleIcon from '@mui/icons-material/Apple';
 
 const Projects = forwardRef((props, ref) => {
   const projectRefs = useRef([]);
@@ -51,7 +52,62 @@ const Projects = forwardRef((props, ref) => {
         Projects I've worked on
       </h1>
       <div className="mobile">
+
+
+
+        {/* Video Project */}
+
+<div className="projectstop">
+  <div className="project" ref={(el) => (projectRefs.current[20] = el)}>
+    <div style={{ display: "flex", gap: "2rem" }}>
+      <div className="techstack">
+        <div className="zero">01 Figma</div>
+        <div className="zero">02 Adobe Illustrator</div>
+      </div>
+      <DevicesRoundedIcon
+        style={{ color: "#e2e2e2c2", fontSize: "1.5rem" }}
+      />
+    </div>
+
+    <h1 data-scroll data-scroll-speed="0.02" className="title_p">
+      Trimify Health App
+    </h1>
+
+    <div className="description">
+      Trimify is a health and wellness app designed to help users achieve their personal health goals, including weight management, diabetes care, and overall wellbeing, through a simple and user-focused experience.
+    </div>
+
+    <br />
+
+    <div className="links">
+      <a className="source" href="/" target="_blank">
+        <AutoFixHighIcon />
+        Figma
+      </a>
+      <a className="demo" href="https://apps.apple.com/in/app/trimify/id6738946874" target="_blank">
+        <AppleIcon />
+        Download 
+      </a>
+    </div>
+  </div>
+
+  {/* VIDEO instead of IMAGE */}
+  <div className="image video" ref={(el) => (imageRefs.current[20] = el)}>
+    <video
+      src="../Trimify.mp4"
+      autoPlay
+      loop
+      muted
+      playsInline
+      preload="metadata"
+    />
+  </div>
+</div>
         
+
+
+
+
         
           {/* 1 Project */}
 

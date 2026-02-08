@@ -75,12 +75,11 @@
       display: flex;
       flex-wrap: wrap;
       gap: 1rem;
-      padding: 0px;
 
       div {
         font-size: 0.8rem;
         background-color: #6e6e6e34;
-        padding: 7px 10px 7px 10px;
+        padding: 7px 10px;
         border-radius: 5px;
         font-weight: 500;
       }
@@ -90,25 +89,9 @@
       margin: 0px;
       line-height: 1em;
       font-size: 50px;
-      background: #3d91d2; /* Fallback color */
-      background: -webkit-linear-gradient(
-        124deg,
-        #fa91d0 0%,
-        #3d91d2 100%
-      ); /* Safari and Chrome */
-      background: -moz-linear-gradient(
-        124deg,
-        #fa91d0 0%,
-        #3d91d2 100%
-      ); /* Firefox */
-      background: linear-gradient(
-        124deg,
-        #fa91d0 0%,
-        #3d91d2 100%
-      ); /* Hexadecimal */
+      background: linear-gradient(124deg, #fa91d0 0%, #3d91d2 100%);
       background-clip: text;
       -webkit-background-clip: text;
-      -moz-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
 
@@ -118,7 +101,6 @@
 
     .links {
       display: flex;
-      flex-direction: row;
       flex-wrap: wrap;
       gap: 10px;
       justify-content: space-evenly;
@@ -137,30 +119,39 @@
         background-color: #e2e2e2;
         border-radius: 20px;
         color: rgb(20, 20, 20);
-        padding: 5px;
-        padding-right: 10px;
-        margin: -5px;
-        margin-right: -10px;
+        padding: 5px 10px;
+        margin: -5px -10px;
       }
     }
   }
 
+  /* IMAGE & VIDEO CONTAINER */
   .image {
     transform: translateX(50%) perspective(800px) rotateY(20deg);
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
     transform-origin: left;
-    img {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+
+    img,
+    video {
       width: 800px;
       height: 500px;
       object-fit: cover;
       border-radius: 5px;
+      display: block;
+    }
+
+    video {
+      background-color: #000;
     }
   }
+
+  /* SCROLL ANIMATION */
   .project,
   .image {
     opacity: 0;
     transition: opacity 0.9s ease-out, transform 0.86s ease-out;
   }
+
   .project.appear,
   .image.appear {
     opacity: 1;
@@ -168,6 +159,7 @@
   }
 }
 
+/* ================= MOBILE ================= */
 @media only screen and (max-width: 688px) {
   .projects {
     .project {
@@ -176,14 +168,9 @@
       width: 90vw;
       min-width: 90vw;
       min-height: 22rem;
-      padding: 0rem;
-      padding-top: 1rem;
-      padding-bottom: 1rem;
+      padding: 1rem 0;
 
-      div {
-        padding-left: 1rem;
-        padding-right: 1rem;
-      }
+      div,
       h1 {
         padding-left: 1rem;
         padding-right: 1rem;
@@ -201,11 +188,10 @@
           min-width: 90vw;
           gap: 3px;
 
-        .icon {
-          cursor: pointer;
-          margin-top: 3px;
-          font-size: 1rem;
-        }
+          .icon {
+            font-size: 1rem;
+            margin-top: 3px;
+          }
 
           .show-more {
             font-size: 0.8rem;
@@ -231,16 +217,17 @@
       transform: none;
       width: 90vw;
       min-width: 90vw;
-      display: flex;
-      box-sizing: border-box;
 
-      img {
+      img,
+      video {
         width: 90vw;
         height: 280px;
       }
     }
   }
 }
+
+/* ================= TABLET ================= */
 @media (min-width: 688px) and (max-width: 1170px) {
   .projects {
     margin-bottom: 15rem;
@@ -250,15 +237,10 @@
       border-radius: 5px;
       width: 75vw;
       min-width: 75vw;
-      padding: 0rem;
-      padding-top: 1rem;
-      padding-bottom: 1rem;
       min-height: 19rem;
+      padding: 1rem 0;
 
-      div {
-        padding-left: 1rem;
-        padding-right: 1rem;
-      }
+      div,
       h1 {
         padding-left: 1rem;
         padding-right: 1rem;
@@ -267,8 +249,6 @@
 
     .mobile {
       margin-top: 11rem;
-      display: flex;
-      flex-direction: column;
       gap: 25rem;
 
       .btn-container {
@@ -298,10 +278,9 @@
       transform: none;
       width: 75vw;
       min-width: 75vw;
-      display: flex;
-      box-sizing: border-box;
 
-      img {
+      img,
+      video {
         width: 75vw;
         height: 450px;
         max-height: 450px;
