@@ -20,11 +20,11 @@ const brandingData = [
   },
   {
     name: "Swannlogo",
-    category: "ABeauty platform designed to connect customers with trusted salons for easy booking and personalized care.",
+    category: "A simple way to schedule your beauty appointments.",
     image: "../Swannlogo.png",
   },
   {
-    name: "Solis",
+    name: "Handler",
     category: "From pickup to doorstep, enjoy seamless and hassle-free deliveries.",
     image: "../handler.png",
   },
