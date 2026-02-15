@@ -8,6 +8,8 @@ import "./app.scss";
 import { useState, useEffect, useRef } from "react";
 import "../node_modules/locomotive-scroll/bundled/locomotive-scroll.css";
 import LocomotiveScroll from "locomotive-scroll";
+import Branding from "./components/branding/Branding";
+// import MicroInteractions from "./components/interactions/MicroInteractions";
 
 let locomotiveScroll;
 
@@ -55,8 +57,10 @@ const App = () => {
       <Nav skill={skills} project={projects} />
       <AboutMe contact={contact} />
       <TechSkills ref={skills} />
+      <Branding />
       <Projects ref={projects} />
       <Contact ref={contact} />
+      
     </div>
   );
 };

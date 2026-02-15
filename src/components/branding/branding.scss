@@ -1,0 +1,95 @@
+.branding {
+  margin-top: 6rem;
+}
+
+/* Horizontal scroll container */
+.branding-scroll {
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1.8rem;
+  overflow-x: auto;
+  padding: 2.5rem 2rem;
+  scroll-snap-type: x mandatory;
+
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Branding card */
+.branding-card {
+  scroll-snap-align: start;
+
+  width: 320px;
+  height: 300px;
+
+  background: linear-gradient(180deg, #1c1c1c, #141414);
+  border-radius: 14px;
+  padding: 1.6rem;
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+
+  &:hover {
+    transform: translateY(-8px);
+    box-shadow:
+      0 20px 60px rgba(0, 0, 0, 0.45),
+      0 0 0 1px rgba(255, 255, 255, 0.04);
+  }
+
+  /* Logo container */
+  .logo-box {
+    height: 180px;              // ⬅️ more vertical space
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    img {
+      max-width: 300px;
+      max-height: 300px;
+      object-fit: contain;
+      transition: transform 0.3s ease;
+    }
+  }
+
+  &:hover .logo-box img {
+    transform: scale(1.05);
+  }
+
+  /* Brand info */
+  .brand-info {
+    margin-top: 1rem;
+
+    h4 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-bottom: 0.4rem;
+      color: #ffffff;
+    }
+
+    p {
+      font-size: 0.9rem;
+      color: #b5b5b5;
+      line-height: 1.45;
+    }
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .branding-scroll {
+    padding: 2rem 1.2rem;
+    gap: 1.2rem;
+  }
+
+  .branding-card {
+    width: 85vw;
+    height: 280px;
+  }
+}
