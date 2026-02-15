@@ -15,17 +15,17 @@ const brandingData = [
   },
   {
     name: "Neho",
-    category: "Finance",
+    category: "Meet new people, match instantly, and start meaningful conversations",
     image: "../nehologo.png",
   },
   {
     name: "Swannlogo",
-    category: "Energy",
+    category: "ABeauty platform designed to connect customers with trusted salons for easy booking and personalized care.",
     image: "../Swannlogo.png",
   },
   {
     name: "Solis",
-    category: "Energy",
+    category: "From pickup to doorstep, enjoy seamless and hassle-free deliveries.",
     image: "../handler.png",
   },
 ];
