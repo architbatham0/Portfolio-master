@@ -287,10 +287,10 @@ const Projects = forwardRef((props, ref) => {
               />
             </div>
             <h1 data-scroll data-scroll-speed="0.02" className="title_p">
-              Adams Ale
+              My Travel Kaki
             </h1>
             <div className="description">
-            Admas Ale Web Design is a contemporary food restaurant and bar located in the heart of Indore, offering a unique dining experience with a blend of exquisite local and international cuisines
+           The Malaysia Tour App is a simple travel booking application designed to help users explore and select tour packages across Malaysia. The app focuses on providing a smooth and easy experience for users to browse destinations.
             </div>
             <br />
             <div className="links">
@@ -315,7 +315,7 @@ const Projects = forwardRef((props, ref) => {
           <div className="image" ref={(el) => (imageRefs.current[2] = el)}>
             <img
               loading="lazy"
-              src="../Adams.png"
+              src="../mytravelkaki.png"
               alt="project img"
               fetchpriority="low"
             />
