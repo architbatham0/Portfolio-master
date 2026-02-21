@@ -322,6 +322,121 @@ const Projects = forwardRef((props, ref) => {
           </div>
         </div>
 
+
+
+                                   {/* Event app */}
+
+
+        {/* <div className="projectstop">
+          <div className="project" ref={(el) => (projectRefs.current[3] = el)}>
+            <div style={{ display: "flex", gap: "2rem" }}>
+              <div className="techstack">
+                <div className="zero">01 Figma</div>
+                <div className="zero">02 Adobe Illustrator</div>
+                
+
+              </div>
+              <StayPrimaryPortraitIcon
+                style={{ color: "#e2e2e2c2", fontSize: "1.5rem" }}
+              />
+            </div>
+            <h1 data-scroll data-scroll-speed="0.02" className="title_p">
+              IRCTC Redesigne
+            </h1>
+            <div className="description">            
+            The current design is cluttered interface makingit difficult for user to quickly find train select dates and book ticket efficiently. 
+
+            </div>
+            <br />
+            <div className="links">
+            <a
+                className="source"
+                href="/"
+                target="_blank"
+              >
+                <AutoFixHighIcon />
+                Figma
+              </a>
+              <a
+                className="demo"
+                href="https://medium.com/@architbatham64/case-study-redesigning-the-irctc-train-booking-experience-4ad45bc24744"
+                target="_blank"
+              >
+                <ArticleSharpIcon />
+                Prototype
+              </a>
+              
+                
+      
+            </div>
+          </div>
+          <div className="image" ref={(el) => (imageRefs.current[3] = el)}>
+            <img
+              loading="lazy"
+              src="../IRCTC.jpg"
+              alt="project img"
+              fetchpriority="low"
+            />
+          </div>
+        </div> */}
+
+        <div className="projectstop">
+          <div className="project" ref={(el) => (projectRefs.current[3] = el)}>
+            <div style={{ display: "flex", gap: "2rem" }}>
+              <div className="techstack">
+                <div className="zero">01 Figma</div>
+                <div className="zero">02 Adobe Illustrator</div>
+                
+
+              </div>
+              <StayPrimaryPortraitIcon
+                style={{ color: "#e2e2e2c2", fontSize: "1.5rem" }}
+              />
+            </div>
+            <h1 data-scroll data-scroll-speed="0.02" className="title_p">
+              Make It Happen Event App
+            </h1>
+            <div className="description">            
+            Make it happen is an event management app designed to streamline the process of organizing and attending events.
+            </div>
+            <br />
+            <div className="links">
+            <a
+                className="source"
+                href="/"
+                target="_blank"
+              >
+                <AutoFixHighIcon />
+                Figma
+              </a>
+              <a
+                className="demo"
+                href="/"
+                target="_blank"
+              >
+                <ArticleSharpIcon />
+                Prototype
+              </a>
+              
+                
+      
+            </div>
+          </div>
+          <div className="image" ref={(el) => (imageRefs.current[3] = el)}>
+            <img
+              loading="lazy"
+              src="../Makeithappen.png"
+              alt="project img"
+              fetchpriority="low"
+            />
+          </div>
+        </div>
+
+
+
+
+
+
         
                                          {/* 3rd project */}
 
@@ -377,59 +492,7 @@ const Projects = forwardRef((props, ref) => {
         </div>
                                                                            {/* nect project */}
 
-        <div className="projectstop">
-          <div className="project" ref={(el) => (projectRefs.current[3] = el)}>
-            <div style={{ display: "flex", gap: "2rem" }}>
-              <div className="techstack">
-                <div className="zero">01 Figma</div>
-                <div className="zero">02 Adobe Illustrator</div>
-                
-
-              </div>
-              <StayPrimaryPortraitIcon
-                style={{ color: "#e2e2e2c2", fontSize: "1.5rem" }}
-              />
-            </div>
-            <h1 data-scroll data-scroll-speed="0.02" className="title_p">
-              IRCTC Redesigne
-            </h1>
-            <div className="description">            
-            The current design is cluttered interface makingit difficult for user to quickly find train select dates and book ticket efficiently. 
-
-            </div>
-            <br />
-            <div className="links">
-            <a
-                className="source"
-                href="/"
-                target="_blank"
-              >
-                <AutoFixHighIcon />
-                Figma
-              </a>
-              <a
-                className="demo"
-                href="https://medium.com/@architbatham64/case-study-redesigning-the-irctc-train-booking-experience-4ad45bc24744"
-                target="_blank"
-              >
-                <ArticleSharpIcon />
-                Prototype
-              </a>
-              
-                
-      
-            </div>
-          </div>
-          <div className="image" ref={(el) => (imageRefs.current[3] = el)}>
-            <img
-              loading="lazy"
-              src="../IRCTC.jpg"
-              alt="project img"
-              fetchpriority="low"
-            />
-          </div>
-        </div>
-
+        
                                                                                    {/* Recruit CRM */}
 
                                                                                    <div className="projectstop">
