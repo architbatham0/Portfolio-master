@@ -296,11 +296,11 @@ const Projects = forwardRef((props, ref) => {
             <div className="links">
               <a
                 className="source"
-                href="/"
+                href="https://dribbble.com/shots/27111594-My-Travel-Kaki?utm_source=Clipboard_Shot&utm_campaign=architbatham&utm_content=My%20Travel%20Kaki&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=architbatham&utm_content=My%20Travel%20Kaki&utm_medium=Social_Share"
                 target="_blank"
               >
-                <AutoFixHighIcon />
-                Figma
+                <SportsBasketballIcon />
+                Dribble
               </a>
               <a
                 className="demo"
@@ -403,7 +403,7 @@ const Projects = forwardRef((props, ref) => {
             <div className="links">
             <a
                 className="source"
-                href="https://dribbble.com/shots/27111594-My-Travel-Kaki?utm_source=Clipboard_Shot&utm_campaign=architbatham&utm_content=My%20Travel%20Kaki&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=architbatham&utm_content=My%20Travel%20Kaki&utm_medium=Social_Share"
+                href="/"
                 target="_blank"
               >
                 <SportsBasketballIcon />
