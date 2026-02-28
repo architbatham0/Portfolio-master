@@ -38,7 +38,7 @@ const TechSkills = forwardRef((props, ref) => {
         </div>
         <div className="grid grid1">
           <div className="skill-title">
-            <div className="js">Web Flow</div>
+            <div className="js">Jitter</div>
             <div
               style={{
                 display: "flex",
@@ -53,8 +53,7 @@ const TechSkills = forwardRef((props, ref) => {
             </div>
           </div>
           <div className="body">
-            Webflow’s all-in-one platform, you can create, manage, and optimize web experiences that 
-            convert — without sacrificing brand consistency.
+            Jitter is a collaborative motion design tool that lets you create professional animations in minutes.
           </div>
         </div>
         <div className="grid grid1">
@@ -100,7 +99,7 @@ const TechSkills = forwardRef((props, ref) => {
         </div>
         <div data-scroll data-scroll-speed="0.1" className="grid grid1">
           <div className="skill-title">
-            <div className="react">Rive</div>
+            <div className="react">Design System</div>
             <div
               style={{
                 display: "flex",
@@ -113,7 +112,7 @@ const TechSkills = forwardRef((props, ref) => {
             </div>
           </div>
           <div className="body">
-          Rive is a tool for creating and running interactive animations for apps, games, and websites
+          A design system is a centralized, living library of reusable components, standards, and documentation that ensures consistency and efficiency across digital products.
           </div>
         </div>
         <div className="grid grid1">
